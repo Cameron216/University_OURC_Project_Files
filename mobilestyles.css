@@ -1,0 +1,268 @@
+
+*{
+outline: none;
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+a{
+text-decoration: none;
+color: #069;
+cursor: pointer;
+_cursor: hand;
+}
+
+a:hover{
+text-decoration: underline
+}
+
+body{
+border: none;
+font-family: arial,sans-serif;
+font-size: 0.65em;
+font-size: 1em;
+background: #ebf4fb url('./images/bg_body.png') repeat-x 0 0
+}
+
+input::-moz-focus-inner{
+border: 0;
+padding: 0
+}
+
+.cnone{
+clear: none !important;
+}
+
+.clear{
+clear: both;
+}
+
+.cleft{
+clear: left;
+}
+
+.cright{
+clear: right;
+}
+
+.right{
+text-align: right;
+}
+
+.left{
+text-align: left;
+}
+
+.center{
+text-align: center;
+}
+
+.fright{
+float: right;
+}
+
+.fleft{
+float: left;
+}
+
+.hideme{
+display: none;
+}
+
+.nowrap{
+white-space: nowrap;
+}
+
+.round{
+position: relative;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+padding: 10px;
+}
+
+.round:hover{
+text-decoration: underline;
+cursor: pointer;
+cursor: hand;
+}
+
+.accessibility{
+display: none;
+}
+
+body.cms{
+background-image: none;
+padding: 5px;
+font-size: 12px;
+background-color: #fff;
+}
+
+body.cms p{
+padding: 0 0 12px 0;
+margin: 0;
+line-height: 1.4em;
+}
+
+body.cms ul,body.cms ol{
+padding: 0 0 12px 0;
+margin:0;
+}
+
+#header{
+height: 88px;
+font-size: 1.2em;
+}
+
+#header .ou{
+position: absolute;
+display: block;
+width: 83px;
+height: 56px;
+margin-top: 10px;
+margin-left: 10px;
+background: url('./images/ou_logo.png') no-repeat 0 0;
+text-indent: -9999px;
+}
+
+#header .ourc{
+position: absolute;
+display: block;
+width: 360px;
+height: 50px;
+margin: 14px 0 0 102px;
+background: url('./images/ourc_logo.png') no-repeat 0 0;
+background-size: 360px;
+text-indent:-9999px;
+}
+
+#header ul{float:right;list-style:none;height:16px;padding-top:5px}
+#header ul li{display:inline;border-left:1px solid #ebebe3;padding:0 0 0 11px;margin:0 0 0 10px}
+#header a.rss{display:inline-block;height:16px;background:url('../images/rss.png') no-repeat 0 0;padding-left:29px}
+#header a.sel{text-decoration:underline}
+#header form{clear:both;float:right;padding-top:23px}
+#header form p{float:left}
+
+#page_container{
+width: 480px;
+padding: 3px 0px 0px 0px;
+background: #FFFFFF;
+margin: 0 auto;
+}
+
+#navigation{
+width: 480px;
+height: 25px;
+border-bottom: 3px solid #408282;
+background: #408282;
+list-style: none;
+font-size: 1.2em;
+}
+
+#navigation li{
+display: block;
+float: left;
+}
+
+#navigation a{
+display: inline-block;
+height: 21px;
+padding: 5px 32px 0 14px;
+background: #003d3d;
+color: #FFFFFF;
+border-right: 1px solid #408282;
+border-top: 1px solid #668b8b;
+}
+
+#navigation a.sel{background:#408282;border-color:#408282;font-weight:bold;padding-right:32px}
+
+#carousel{display:block;width:480px;height:345px;overflow:hidden;background:#ebebe3;margin:0 0 30px 0}
+#carousel ul{list-style:none;width:480px;height:300px;overflow:hidden}
+#carousel li{position:absolute;border-bottom:1px solid #fff;width:620px;height:300px;cursor:pointer}
+#carousel .controls{height:29px;padding:15px 15px 0 15px}
+#carousel .dot{display:block;width:11px;height:11px;font-size:9px;float:right;background:url('dots01.png') no-repeat 0 0;margin:2px 0 0 6px;cursor:pointer}
+#carousel .dotsel{background-position:0 -11px}
+#carousel .overlay{display:block;z-index:100;width:480px;height:42px;padding:8px 15px 0 15px;position:absolute;margin-top:250px;background:url('alpha.png') repeat 0 0;color:#fff;font-size:12px;white-space:nowrap;cursor:pointer}
+#carousel .overlay p{display:none;cursor:pointer}
+#carousel .overlay span{display:block;font-size:11px;margin-top:1px}
+
+#runnerimage{
+display: block;
+width: 480px;
+height: 310px;
+background: #ebebe3 url('./images/carousel01.jpg') no-repeat top right;
+}
+
+#footer{
+width: 480px;
+padding: 0 0 0 15px;
+margin: 10px auto;
+color: #666;
+font-size: 0.8em;
+line-height: 1.3em;
+}
+
+.column{display:block;float:left}
+
+.field{padding: 5px 10px 0 10px;font-size:1.2em}
+.field p{
+	width: 200px;
+}
+.field p.label{float:left;width:202px;text-align:right;margin-right:10px}
+.smallform p.label{width:100px !important}
+.field p.label label{display:inline-block;padding-top:10px}
+.field p.field{float:left;width:200px}
+.field p.field input.f{display:inline;float:right;padding:3px;width:200px}
+.field p.field input.fs{width:150px}
+.field p.field input.fm{width:50px}
+.field p.field input.fy{width:70px}
+.field p.field textarea.f{padding:3px;width:300px}
+.field p.field select.f{padding:1px;width:310px}
+.field p.field label{margin:0 30px 0 5px}
+.field p.field strong{
+display: inline-block;
+padding-top: 5px;
+}
+
+.dots{
+background: url('./images/dots03.png') repeat-x 0 50%;
+height: 11px;
+margin-top: 5px;
+}
+
+form{
+width: 480px;
+}
+
+form button{
+font-size: 14px !important;
+width: 78px !important;
+}
+
+form .buttons{
+clear: both;
+border-top: 1px solid #767667;
+margin-top: 20px;
+padding-top: 12px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.racetitle{
+color: #767667;
+font-size: 24px;
+font-weight: normal;
+}
+
+.racedate{
+color: #949481;
+font-size: 14px;
+font-weight: normal;
+margin: 2px 0 8px 0;
+}
+
+.mandatory{
+background: url('./images/mandatory.png') no-repeat 100% 4px;
+padding-right: 7px;
+}

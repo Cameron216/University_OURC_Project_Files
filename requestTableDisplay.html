@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"/>
+<link rel="StyleSheet" href="styles.css" type="text/css" media="screen" />
+<title>Produce a Sorted Display of Times</title>
+</head>
+<body>
+<hr/>
+<h1>Produce a Sorted Display of Times</h1>
+<form action="http://cb25574.tt284.open.ac.uk/b2files/requestdata.php" method="post" id="displayTimeTable">
+<table>
+<tr>
+<td>
+Include AgeGrade
+<input type="radio" name="IncludeAgeGrade" value="1"/>Yes
+<input type="radio" name="IncludeAgeGrade" value="0"/>No
+</td>
+</tr>
+<tr>
+<td>
+Sort table on =
+<select name="SortBy">
+<option value="RunnerID" selected="selected">Runner ID</option>
+<option value="EventID">Event ID</option>
+<option value="Date">Date</option>
+<option value="FinishTime">Finish Time</option>
+<option value="Position">Position</option>
+<option value="CategoryID">Category ID</option>
+<option value="AgeGrade">Age Grade</option>
+<option value="PB">Personal Best</option>
+</select>
+</td>
+<td>
+Sort in =
+<select name="SortIn">
+<option value="asc" selected="selected">Ascending order</option>
+<option value="desc">Descending order</option>
+</select>
+</td>
+</tr>
+</table>
+<p>
+<input type="submit" name="submit" value="Submit"/>
+</p>
+</form>
+</body>
+</html>
+

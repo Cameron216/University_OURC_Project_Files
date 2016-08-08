@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>OURC Admin - Race Events</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img class="logo" src="img/logo.gif" height="100px">
+			<div class="title">
+				<h1>OU Running Club</h1>
+				<p>Admin Application</p>
+				<p class="login"><a href="Login_Wireframe.html">Login...</a></p>
+			</div><!--Title-->
+
+			<div class="navigation">
+				<ul>
+					<li><a href="News_Wireframe.html">News</a></li>
+					<li><a class="active" href="Race_Events_Wireframe.html">Race Events</a></li>
+					<li><a href="Race_Results_Wireframe.html">Race Results</a></li>
+					<li><a href="Add_Social_Events_Wireframe.html">Add Social Events</a></li>
+					<li><a href="Add_New_Member_Wireframe.html">Add New Member</a></li>
+					<li><a href="Email_Wireframe.html">Mail</a></li>
+				</ul>
+			</div><!--navigation-->
+			
+		</div><!--Header-->
+		<div class="breadcrumbs">
+			<ul>
+				<li><a href="#">breadcrumb</a></li>
+				<li>></li>
+				<li><a href="#">breadcrumb</a></li>
+				<li>></li>
+				<li><a href="#">breadcrumb</a></li>
+			</ul>
+		</div><!--breadcrumbs-->
+		<div class="content">
+
+			<div id="social_events_form">
+				<p id="events_title">Race Events</p>
+				<form id="new_member">
+					<p>Select Event:
+					<select>
+						<option value="event1">Select An Option...</option>
+						<option value="event1">Create New</option>
+  						<option value="event1">Event 1</option>
+  						<option value="event2">Event 2</option>
+  						<option value="event3">Event 3</option>
+  						<option value="event4">Event 4</option>
+					</select>
+					</p>
+
+					<p><b>Event Title:</b><input type="text" name="title"></p>
+					<p><b>Event Date:</b><input type="text" name="date"></p>
+					<p><b>Event Location:</b><input type="text" name="location"></p>
+					<p><b>Directions: </b><a href="https://maps.google.co.uk/maps/myplaces?ll=50.790524,4.418478&spn=0.013741,0.020256&t=m&z=16&iwloc=A&dg=feature">Click Me!</a></p>
+					<p>
+						<input type="submit" name="clear" value="Clear">
+						<input type="submit" name="update" value="Update">
+						<input type="submit" name="add" value="Create Event">
+					</p>
+				</form>
+			</div><!--social events form-->
+
+		</div><!--Content-->
+		<div class="footer">
+			<p>The Open University</p>
+			<p class="copyright">&copy; Copyright 2015, All Rights Reserved</p>
+		</div><!--Footer-->
+	</div><!--Container-->
+</body>
+</html>

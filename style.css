@@ -1,0 +1,284 @@
+/* Layout */
+
+body{
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.container{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	border: solid 1px;
+}
+
+.header{
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
+	border: solid 1px;
+	margin: 4px;
+	clear: both;
+}
+
+
+.content{
+	overflow: auto;
+	width: 950px;
+	margin: 4px auto;
+	border: solid 1px;
+}
+
+.footer{
+	position: relative;
+	width: 945px;
+	border: solid 1px;
+	bottom: 4px;
+	left: 4px;
+	margin-top: 8px;
+	font-size: 0.8em;
+	padding: 5px 0 5px 5px;
+}
+
+.logo{
+	float: left;
+	clear: both;
+}
+
+
+.title{
+	font-size: 15px;
+	padding: 0 0 0 10px;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+h1{
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+.navigation{
+	clear: both;
+	border-top: solid 1px;
+}
+
+.navigation ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ul li{
+	display: inline;
+	border-right: solid 1px;
+}
+
+.navigation ul li a{
+	text-decoration: none;
+	color: #4E4E4E;
+	padding: 0 3px;
+
+}
+
+.navigation ul li a:hover{
+	background-color: #D5D5D5;
+}
+
+.login{
+	float: right;
+	top: 2px;
+	right: 4px;
+	position: absolute;
+}
+
+.login a{
+	color: #4E4E4E;
+	text-decoration: none;
+	padding: 3px;
+}
+
+.login a:hover{
+	background-color: #D5D5D5;
+	text-decoration: none;
+}
+
+.active{
+	background-color: #C0C0C0;
+}
+
+.breadcrumbs{
+	padding: 0 0 0 5px;
+}
+
+.breadcrumbs ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.breadcrumbs ul li{
+	display: inline;
+}
+
+.breadcrumbs ul li a{
+	color: #857B7B;
+	text-decoration: none;
+}
+
+.breadcrumbs ul li a:hover{
+	color: #857B7B;
+	text-decoration: underline;
+}
+
+.copyright{
+	font-size: 0.7em;
+	color: #857B7B;
+}
+
+#sign_in_form{
+	margin: 160px auto;
+	padding: 5px 6px;
+	text-align: center;
+	
+}
+
+input{
+	margin: 5px
+}
+
+#email_form{
+	width: 40%;
+	margin: 0 auto;
+}
+
+#email_form form p{
+	font-size: 0.8em;
+	display: inline-block;
+	float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+#emailcontent{
+	display: inline-block;
+	width: 250px;
+	padding: 8px;
+}
+
+#email_title{
+	text-align: center;
+	font-size: 1.1em;
+	text-decoration: underline;
+}
+
+#new_member_form form p{
+	font-size: 0.8em;
+}
+
+#member_title{
+	text-align: center;
+	padding: 20px;
+	text-decoration: underline;
+}
+
+#submit_member{
+	
+}
+
+#new_member{
+	text-align: center;
+}
+
+#member_table{
+	padding: 1px;
+	margin: 10px;
+}
+
+td{
+	padding: 2px;
+}
+
+#member_list_title{
+	position: relative;
+	left: 20px;
+	text-decoration: underline; 
+	width: 200px;
+}
+
+#events_title{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 1.2em;
+	padding: 15px;
+}
+
+#heading{
+	padding: 10px;
+	margin: 0;
+}
+
+#race_results{
+	padding: 2px;
+	margin: 9px;
+}
+
+#race_results td{
+	padding: 6px;
+	margin: 9px;
+	width: 150px;
+	font-size: 0.8em;
+}
+
+.results{
+	text-decoration: none;
+	color: #1569C7;
+}
+
+.results:hover{
+	text-decoration: underline;
+}
+
+#description{
+	font-weight: normal;
+	margin: 10px;
+	left: 2px;
+	position: relative;
+}
+
+.back{
+	float: right;
+	top: -40px;
+	position: relative;
+	color: #1569C7;
+}
+
+.back a{
+	color: #1569C7;
+	text-decoration: none;
+}
+
+.back a:hover{
+	text-decoration: underline;
+}
+
+.news_item{
+	float: right;
+	border: 1px solid;
+	margin: 5px;
+	padding: 2px;
+}
+
+.news_item p{
+	width: 800px;
+	float: right;
+}
+
+.dates{
+	font-size: 0.7em;
+	font-style: italic;
+}

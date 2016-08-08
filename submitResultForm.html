@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"/>
+<title>Submit a runner time</title>
+</head>
+<body>
+<hr/>
+<h1>Submit a runner time</h1>
+<hr/>
+Note: all fields marked '*' are mandatory.
+<p/>
+<form action="http://cb25574.tt284.open.ac.uk/b2files/storedata.php"
+      method="post" onsubmit="return validate()" name="submitrunnertime">
+<table>
+<tr><td>Runner ID*</td>
+<td><input type="text" name="RunnerID" size="4" maxlength="4"/></td>
+</tr>
+<tr><td>Event ID*</td>
+<td><input type="text" name="EventID" size="4" maxlength="4"/></td>
+</tr>
+<tr><td>Date (YYYY-MM-DD)*</td>
+<td><input type="text" name="Date" size="10" maxlength="10"/></td>
+</tr>
+<tr><td>Finish time (HH:MM:SS)*</td>
+<td><input type="text" name="FinishTime" size="8" maxlength="8"/></td>
+</tr>
+<tr><td>Position</td>
+<td><input type="text" name="Position" size="5" maxlength="5" id="position"/></td>
+</tr>
+<tr><td>Category ID</td>
+<td><input type="text" name="CategoryID" size="3" maxlength="2" id="categoryid"/></td>
+</tr>
+<tr><td>Age grade</td>
+<td><input type="text" name="AgeGrade" size="5" maxlength="5" id="agegrade"/></td>
+</tr>
+<tr><td>Personal best</td>
+<td><input type="text" name="PB" size="1" maxlength="1" id="pb"/></td>
+</tr>
+</table>
+<input type="submit" value="submit"/>
+<hr/>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
+
